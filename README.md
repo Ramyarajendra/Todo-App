@@ -2,7 +2,9 @@
 
 ## Instructions for running the application
 
-## Note: The build folder on the frontend has been included for convenience
+### Note: The build folder on the frontend has been included for convenience , omit steps 1 and 2 if you do not want to build the frontend again.
+
+## If you are planning on building frontend, kindly delete the build folder in client directory and follow the steps below
 
 1. `cd client && npm install && npm run build`
    To install frontend requirements and to build the client
