@@ -1,25 +1,21 @@
 # Fullstack API Developer Code Challenge
 
-As an alternative, you can implement a web interface (instead of a commandline interface). This should be a REST interface to the [todotxt](https://github.com/1set/todotxt) library.
+## Instructions for running the application
 
-## Setup - Running apichallenge.go
+## Note: The build folder on the frontend has been included for convenience
 
-The basic framework has been done for you. The file `apichallenge.go` implements a basic server that can handle the web connection for you (you don't need to implement authentication or user management for this task). To run this setup you will need to:
+1. `cd client && npm install && npm run build`
+   To install frontend requirements and to build the client
 
-1. Install `todotxt`: `go get github.com/1set/todotxt`
-1. Install `httprouter`: `go get github.com/julienschmidt/httprouter`
-1. Compile: `go build`
-1. Run it! : `./apichallenge`
+2. `cd ..`
 
-Now if you navigate to `http://localhost:8080/mainpage.html` you should see the main page.
+3. To install `boom` : `go get github.com/darahayes/go-boom`
+   Install `todotxt`: `go get github.com/1set/todotxt`
+   Install `httprouter`: `go get github.com/julienschmidt/httprouter`
 
-## Integration
+4. To compile: `go build`
 
-You will see that the basic REST routes have been implemented for you. All you need to do is modify the relevant functions to satisfy the tasks below.
-
-## Static Assets
-
-`apichallenge.go` will serve up any file that is stored in the `static/` folder as a direct path. For example, navigating to `http://localhost:8080/mainpage.html` serves the `mainpage.html` file. Navigating to `http://localhost:8080/stylesheets/main.css` serves the main stylesheet. ETC. You can put any html or css or javascript libraries you need for the interface in the `static` folder.
+5. To execute: `./Todo-App`
 
 ## todo.txt
 
