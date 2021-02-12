@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,YACE,oBAAqB,CACrB,aACF,CACA,cACE,YACF","file":"main.e3339215.chunk.css","sourcesContent":[".link-style {\n  text-decoration: none;\n  color: inherit;\n}\n.label-margin {\n  margin: 5px 0;\n}\n"]}
